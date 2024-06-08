@@ -1,0 +1,20 @@
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(workspace.Level_2.L2:GetChildren()) do
+if v:IsA("Part") then
+rootPart.CFrame = v.CFrame wait(0.1)
+   end
+end
+
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(workspace.Level_1.L1:GetChildren()) do
+if v:IsA("Part") then
+rootPart.CFrame = v.CFrame wait(0.1)
+   end
+end
+
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i, v in pairs(workspace.Level_3.L3:GetChildren()) do
+if v:IsA("Part") then
+rootPart.CFrame = v.CFrame wait(0.1)
+   end
+end
